@@ -82,6 +82,120 @@ border-radius: 3px;
     border-radius: 30px
 }
 
+.park{
+    padding: 50px 0;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    width: 1500px;
+}
+
+.park .electro img{
+    width: 30%;
+    height: auto;
+}
+.park .electro h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.park .electro p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.park .middle img{
+    width: 30%;
+    height: auto;
+}
+.park .middle h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.park .middle p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.park .bussines img{
+    width: 30%;
+    height: auto;
+}
+.park .bussines h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.park .bussines p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.park .premium img{
+    width: 30%;
+    height: auto;
+}
+.park .premium h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.park .premium p{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.park .electro{
+    position: absolute;
+    top: 700px;
+    left: 50px;
+    width: 50%;
+    height: 60%;
+   
+}
+
+.park .middle{
+    position: absolute;
+    top: 700px;
+    right: 50px;
+    width: 50%;
+    height: 60%;
+    
+}
+.park .bussines{
+    position: absolute;
+    top: 1100px;
+    right: 50px;
+    width: 50%;
+    height: 60%;
+   
+}
+.park .premium{
+    position: absolute;
+    top: 1100px;
+    left: 50px;
+    width: 50%;
+    height: 60%;
+   
+}
+/*Закруглення попередніх картинок*/
+.park .electro img{
+    border-radius: 30px;
+}
+
+.park .middle img{
+    border-radius: 30px;
+}
+
+.park .bussines img{
+    border-radius: 30px;
+}
+
+.park .premium img{
+    border-radius: 30px;
+}
 /*Секція з машинами*/
 /*Заголовок*/
 .second h3 {
