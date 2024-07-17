@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мій Вебсайт</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+
+<body>
+    <div class="home-button-container">
+        <button class="home-button" onclick="window.location.href='index.html'">На головну сторінку</button>
+    </div>
+    <section>
+        <figure>
+            <img src="Fotoe/1.jpg" alt="">
+            <div class="add-to-cart">
+                <button>
+                    <i class="fa-solid fa-plus"></i>
+                    <span>Орендувати</span>
+                </button>
+            </div>
+            <figcaption>
+                <h3>Nissan Leaf</h3>
+                <p>Доступно</p>
+                <div class="price-wrapper">
+                    <div class="price">52$ / добу</div>
+                    <ion-icon name="heart-outline" class="heart-icon"></ion-icon>
+                </div>
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="Fotoe/2.jpg" alt="">
+            <div class="add-to-cart">
+                <button>
+                    <i class="fa-solid fa-plus"></i>
+                    <span>Орендувати</span>
+                </button>
+            </div>
+            <figcaption>
+                <h3>Tesla model S</h3>
+                <p>Доступно</p>
+                <div class="price-wrapper">
+                    <div class="price">270$ / добу</div>
+                    <ion-icon name="heart-outline" class="heart-icon"></ion-icon>
+                </div>
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="" alt="">
+            <div class="add-to-cart">
+                <button>
+                    <i class="fa-solid fa-plus"></i>
+                    <span>Орендувати</span>
+                </button>
+            </div>
+            <figcaption>
+                <h3>-</h3>
+                <p>Немає в наявності</p>
+                <div class="price-wrapper">
+                    <div class="price">-</div>
+                    <ion-icon name="heart-outline" class="heart-icon"></ion-icon>
+                </div>
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="" alt="">
+            <div class="add-to-cart">
+                <button>
+                    <i class="fa-solid fa-plus"></i>
+                    <span>Орендувати</span>
+                </button>
+            </div>
+            <figcaption>
+                <h3>-</h3>
+                <p>Немає в наявності</p>
+                <div class="price-wrapper">
+                    <div class="price">-</div>
+                    <ion-icon name="heart-outline" class="heart-icon"></ion-icon>
+                </div>
+            </figcaption>
+        </figure>
+    </section>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <p>Ви впевнені що хочете орендувати саме це авто?</p>
+            <div class="modal-buttons">
+                <button id="rent-btn">Орендувати</button>
+                <button id="back-btn">Назад</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="notification" class="notification">
+        Ви замовили оренду авто
+    </div>
+
+    <div id="heart-notification" class="notification">
+        Додано до вподобаного
+    </div>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="scripte.js"></script>
+</body>
+
+</html>
